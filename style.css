@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+.main {
+  display: flex;
+  /* justify-content: center; */
+}
+.content {
+  margin-top: 12.5%;
+  background-color: rgb(134, 216, 134);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 32px;
+  align-self: auto;
+  border: 5px solid pink;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 800px;
+}
+.avata img {
+  border-radius: 50%;
+  border: 5px solid rgb(204, 168, 70);
+}
+.in4 {
+  align-self: center;
+}
+.in4 img {
+  width: 100px;
+  border-radius: 30%;
+}
+li {
+  padding: 5px;
+  background-color: violet;
+  border-radius: 10px;
+  font-size: 30px;
+}
+li + li {
+  margin-top: 8px;
+}
